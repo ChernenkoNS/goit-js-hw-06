@@ -21,7 +21,7 @@ const galleryArr = []
 for (let i = 0; i < images.length; i += 1) {
 
   const liRef= document.createElement('li')
-  const imgRef = `<img src="${images[i].url}" alt="${images[i].alt}" width ="720"> ` 
+  const imgRef = `<img src="${images[i].url}" alt="${images[i].alt}" class ="img"> ` 
   liRef.insertAdjacentHTML("afterbegin", imgRef )
   galleryArr.push(liRef)
 };
