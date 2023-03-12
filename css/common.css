@@ -23,6 +23,5 @@ button {
   cursor: pointer;
 }
 .img {
-    display: flex;
     width: 100%;
   }
